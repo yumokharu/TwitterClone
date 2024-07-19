@@ -17,6 +17,9 @@
 		DDD910032C4638E600AB22BE /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD910022C4638E600AB22BE /* ExploreController.swift */; };
 		DDD910052C4638F500AB22BE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD910042C4638F500AB22BE /* NotificationController.swift */; };
 		DDD910072C46390B00AB22BE /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD910062C46390B00AB22BE /* ConversationsController.swift */; };
+		DDD9100C2C476C1F00AB22BE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9100B2C476C1F00AB22BE /* Extensions.swift */; };
+		DDD9100F2C4A084F00AB22BE /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9100E2C4A084F00AB22BE /* LoginController.swift */; };
+		DDD910112C4A09C200AB22BE /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD910102C4A09C200AB22BE /* RegistrationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		DDD910022C4638E600AB22BE /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 		DDD910042C4638F500AB22BE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		DDD910062C46390B00AB22BE /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		DDD9100B2C476C1F00AB22BE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DDD9100E2C4A084F00AB22BE /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		DDD910102C4A09C200AB22BE /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 		DDD90FF82C460E9E00AB22BE /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				DDD9100B2C476C1F00AB22BE /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -97,6 +104,7 @@
 		DDD90FFA2C460EB000AB22BE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DDD9100D2C4A083A00AB22BE /* Authentication */,
 				DDD90FFE2C46110200AB22BE /* MainTabController.swift */,
 				DDD910002C46389600AB22BE /* FeedController.swift */,
 				DDD910022C4638E600AB22BE /* ExploreController.swift */,
@@ -125,6 +133,15 @@
 			children = (
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		DDD9100D2C4A083A00AB22BE /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9100E2C4A084F00AB22BE /* LoginController.swift */,
+				DDD910102C4A09C200AB22BE /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,9 +218,12 @@
 				DDD910052C4638F500AB22BE /* NotificationController.swift in Sources */,
 				DDD910072C46390B00AB22BE /* ConversationsController.swift in Sources */,
 				DDD90FE52C460CA300AB22BE /* AppDelegate.swift in Sources */,
+				DDD9100C2C476C1F00AB22BE /* Extensions.swift in Sources */,
 				DDD910032C4638E600AB22BE /* ExploreController.swift in Sources */,
 				DDD90FE72C460CA300AB22BE /* SceneDelegate.swift in Sources */,
 				DDD90FFF2C46110200AB22BE /* MainTabController.swift in Sources */,
+				DDD9100F2C4A084F00AB22BE /* LoginController.swift in Sources */,
+				DDD910112C4A09C200AB22BE /* RegistrationController.swift in Sources */,
 				DDD910012C46389600AB22BE /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
