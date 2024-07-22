@@ -20,6 +20,7 @@
 		DDD9100C2C476C1F00AB22BE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9100B2C476C1F00AB22BE /* Extensions.swift */; };
 		DDD9100F2C4A084F00AB22BE /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9100E2C4A084F00AB22BE /* LoginController.swift */; };
 		DDD910112C4A09C200AB22BE /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD910102C4A09C200AB22BE /* RegistrationController.swift */; };
+		DDD9101C2C4DF76300AB22BE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9101B2C4DF76300AB22BE /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		DDD9100B2C476C1F00AB22BE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		DDD9100E2C4A084F00AB22BE /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		DDD910102C4A09C200AB22BE /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		DDD9101B2C4DF76300AB22BE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				DDD9100B2C476C1F00AB22BE /* Extensions.swift */,
+				DDD9101B2C4DF76300AB22BE /* Utilities.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				DDD910052C4638F500AB22BE /* NotificationController.swift in Sources */,
 				DDD910072C46390B00AB22BE /* ConversationsController.swift in Sources */,
+				DDD9101C2C4DF76300AB22BE /* Utilities.swift in Sources */,
 				DDD90FE52C460CA300AB22BE /* AppDelegate.swift in Sources */,
 				DDD9100C2C476C1F00AB22BE /* Extensions.swift in Sources */,
 				DDD910032C4638E600AB22BE /* ExploreController.swift in Sources */,
