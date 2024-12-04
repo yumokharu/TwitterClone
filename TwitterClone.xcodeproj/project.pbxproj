@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		DDD90FE52C460CA300AB22BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90FE42C460CA300AB22BE /* AppDelegate.swift */; };
 		DDD90FE72C460CA300AB22BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90FE62C460CA300AB22BE /* SceneDelegate.swift */; };
-		DDD90FE92C460CA300AB22BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90FE82C460CA300AB22BE /* ViewController.swift */; };
 		DDD90FEC2C460CA300AB22BE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DDD90FEB2C460CA300AB22BE /* Base */; };
 		DDD90FEE2C460CA400AB22BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD90FED2C460CA400AB22BE /* Assets.xcassets */; };
 		DDD90FF12C460CA400AB22BE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DDD90FF02C460CA400AB22BE /* Base */; };
+		DDD90FFF2C46110200AB22BE /* MainTabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD90FFE2C46110200AB22BE /* MainTabController.swift */; };
+		DDD910012C46389600AB22BE /* FeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD910002C46389600AB22BE /* FeedController.swift */; };
+		DDD910032C4638E600AB22BE /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD910022C4638E600AB22BE /* ExploreController.swift */; };
+		DDD910052C4638F500AB22BE /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD910042C4638F500AB22BE /* NotificationController.swift */; };
+		DDD910072C46390B00AB22BE /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD910062C46390B00AB22BE /* ConversationsController.swift */; };
+		DDD9100C2C476C1F00AB22BE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9100B2C476C1F00AB22BE /* Extensions.swift */; };
+		DDD9100F2C4A084F00AB22BE /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9100E2C4A084F00AB22BE /* LoginController.swift */; };
+		DDD910112C4A09C200AB22BE /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD910102C4A09C200AB22BE /* RegistrationController.swift */; };
+		DDD9101C2C4DF76300AB22BE /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD9101B2C4DF76300AB22BE /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DDD90FE12C460CA300AB22BE /* TwitterClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDD90FE42C460CA300AB22BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDD90FE62C460CA300AB22BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DDD90FE82C460CA300AB22BE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DDD90FEB2C460CA300AB22BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DDD90FED2C460CA400AB22BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDD90FF02C460CA400AB22BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDD90FF22C460CA400AB22BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDD90FFE2C46110200AB22BE /* MainTabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabController.swift; sourceTree = "<group>"; };
+		DDD910002C46389600AB22BE /* FeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedController.swift; sourceTree = "<group>"; };
+		DDD910022C4638E600AB22BE /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
+		DDD910042C4638F500AB22BE /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DDD910062C46390B00AB22BE /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		DDD9100B2C476C1F00AB22BE /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		DDD9100E2C4A084F00AB22BE /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		DDD910102C4A09C200AB22BE /* RegistrationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		DDD9101B2C4DF76300AB22BE /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +72,79 @@
 		DDD90FE32C460CA300AB22BE /* TwitterClone */ = {
 			isa = PBXGroup;
 			children = (
+				DDD90FFD2C460EB500AB22BE /* Model */,
+				DDD90FFC2C460EB200AB22BE /* View */,
+				DDD90FFB2C460EB100AB22BE /* ViewModel */,
+				DDD90FFA2C460EB000AB22BE /* Controller */,
+				DDD90FF92C460EAC00AB22BE /* API */,
+				DDD90FF82C460E9E00AB22BE /* Utils */,
 				DDD90FE42C460CA300AB22BE /* AppDelegate.swift */,
 				DDD90FE62C460CA300AB22BE /* SceneDelegate.swift */,
-				DDD90FE82C460CA300AB22BE /* ViewController.swift */,
 				DDD90FEA2C460CA300AB22BE /* Main.storyboard */,
 				DDD90FED2C460CA400AB22BE /* Assets.xcassets */,
 				DDD90FEF2C460CA400AB22BE /* LaunchScreen.storyboard */,
 				DDD90FF22C460CA400AB22BE /* Info.plist */,
 			);
 			path = TwitterClone;
+			sourceTree = "<group>";
+		};
+		DDD90FF82C460E9E00AB22BE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9100B2C476C1F00AB22BE /* Extensions.swift */,
+				DDD9101B2C4DF76300AB22BE /* Utilities.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DDD90FF92C460EAC00AB22BE /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DDD90FFA2C460EB000AB22BE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9100D2C4A083A00AB22BE /* Authentication */,
+				DDD90FFE2C46110200AB22BE /* MainTabController.swift */,
+				DDD910002C46389600AB22BE /* FeedController.swift */,
+				DDD910022C4638E600AB22BE /* ExploreController.swift */,
+				DDD910042C4638F500AB22BE /* NotificationController.swift */,
+				DDD910062C46390B00AB22BE /* ConversationsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDD90FFB2C460EB100AB22BE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DDD90FFC2C460EB200AB22BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDD90FFD2C460EB500AB22BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDD9100D2C4A083A00AB22BE /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9100E2C4A084F00AB22BE /* LoginController.swift */,
+				DDD910102C4A09C200AB22BE /* RegistrationController.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +218,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DDD90FE92C460CA300AB22BE /* ViewController.swift in Sources */,
+				DDD910052C4638F500AB22BE /* NotificationController.swift in Sources */,
+				DDD910072C46390B00AB22BE /* ConversationsController.swift in Sources */,
+				DDD9101C2C4DF76300AB22BE /* Utilities.swift in Sources */,
 				DDD90FE52C460CA300AB22BE /* AppDelegate.swift in Sources */,
+				DDD9100C2C476C1F00AB22BE /* Extensions.swift in Sources */,
+				DDD910032C4638E600AB22BE /* ExploreController.swift in Sources */,
 				DDD90FE72C460CA300AB22BE /* SceneDelegate.swift in Sources */,
+				DDD90FFF2C46110200AB22BE /* MainTabController.swift in Sources */,
+				DDD9100F2C4A084F00AB22BE /* LoginController.swift in Sources */,
+				DDD910112C4A09C200AB22BE /* RegistrationController.swift in Sources */,
+				DDD910012C46389600AB22BE /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
